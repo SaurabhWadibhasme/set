@@ -19,6 +19,7 @@ public class App
         driver.get("https://www.amazon.in/");
 		String a= driver.getTitle();
 		System.out.println(a);
+		System.out.println(a);
 		WebElement all=driver.findElement(By.id("searchDropdownBox"));
 		all.click();
 		Select s= new Select(all);
